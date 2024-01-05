@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 import 'package:quran_app/screens/home_screen.dart';
 
+// ignore: camel_case_types
 class onBoardScreen extends StatefulWidget {
   const onBoardScreen({super.key});
 
@@ -9,6 +10,7 @@ class onBoardScreen extends StatefulWidget {
   State<onBoardScreen> createState() => _onBoardScreenState();
 }
 
+// ignore: camel_case_types
 class _onBoardScreenState extends State<onBoardScreen> {
   @override
   Widget build(BuildContext context) {
