@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
-import 'package:quran_app/screens/home_screen.dart';
+import 'package:quran_app/screens/main_screen.dart';
 
 // ignore: camel_case_types
 class onBoardScreen extends StatefulWidget {
@@ -77,7 +77,7 @@ class _onBoardScreenState extends State<onBoardScreen> {
         onDone: () {
           // On Done button pressed
           Navigator.pushReplacement(
-              context, MaterialPageRoute(builder: (context) => HomeScreen()));
+              context, MaterialPageRoute(builder: (context) => MainScreen()));
         },
         showNextButton: true,
         next: const Icon(
